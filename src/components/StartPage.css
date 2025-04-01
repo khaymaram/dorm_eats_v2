@@ -1,0 +1,41 @@
+/* StartPage Styles */
+.StartPage {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    min-height: 100vh; 
+    background-color: #AFBEA4;
+    background-image: url('bg3.svg');
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.StartPage img {
+    padding: 10px;
+    margin: 0 0 15px 0;
+    width: calc(340px + 5vmin);
+    height: calc(300px + 5vmin);
+}
+
+.StartPage button{
+    padding: 25px;
+    font-family: "Open Sans", serif;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #FDFCDC;
+    color: #103516;
+    border-width: 0;
+    box-shadow: 3px 3px #103516;
+    cursor: pointer;
+}
+
+.StartPage button:hover{
+    background-color:#103516;
+    color: #FDFCDC;
+    box-shadow: 3px 3px #FDFCDC;
+    transition: 0.25s;
+}

@@ -1,0 +1,144 @@
+/* Global Styles */
+html,
+body {
+  height: 100%;
+  /* Ensures they span the full viewport height */
+  background-color: #FDFCDC;
+}
+
+ul {
+  list-style-type: none;
+  /* Removes bullets */
+}
+
+/* HomePage Styles */
+.OpenRecipe {
+  text-align: center;
+  min-height: 100%;
+}
+
+/* Header Section */
+.OpenRecipe-header {
+  position: relative;
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 5vmin);
+  color: #103516;
+  height: 60px;
+  font-family: "Vidaloka", serif;
+  letter-spacing: 1.5px;
+}
+
+.OpenRecipe-header img {
+  padding: 10px 0 0 20px;
+}
+
+/* Content Section */
+.OpenRecipe-content {
+  display: flex;
+  justify-content: space-around;
+  /* Space evenly between sections */
+  align-items: stretch;
+  /* Ensures both blocks have equal height */
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+/* Subheading */
+.OpenRecipe-subheading {
+  font-size: calc(3px + 5vmin);
+  color: #103516;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+  letter-spacing: 1px;
+}
+
+/* Ingredients and Recipes Shared Styles (main boxes)*/
+.OpenRecipe-ingredients,
+.OpenRecipe-instructions {
+  background-color: #AFBEA4;
+  padding: 20px;
+  box-sizing: content-box;
+  border-radius: 20px;
+  position: relative;
+  /* Ensures subheading is positioned relative to this block */
+  flex-direction: column;
+  /* Aligns content vertically inside the box */
+  flex-grow: 1;
+  /* Allows both sections to grow and match heights */
+  margin-bottom: 15px;
+  /* Leaves space between bottom of page and the blocks */
+}
+
+/* Ingredients Section */
+.OpenRecipe-ingredients {
+  flex: 1;
+  /* Takes 1 part of the available space */
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Checklist */
+.OpenRecipe-ingredients div {
+  width: 90%;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+
+.OpenRecipe-ingredients label, .OpenRecipe-instructions label {
+  font-size: calc(2px + 3.5vmin);
+  font-family: "Open Sans", serif;
+  color: #1b4a23;
+}
+
+/* Recipes Section */
+.OpenRecipe-instructions {
+  flex: 2;
+  /* Takes 2 parts of the available space */
+  background-color: #ffc95c;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.OpenRecipe-instructions div {
+  margin-bottom: 10px; /* Adjust spacing between each step */
+}
+
+.OpenRecipe-img img{
+  border-radius: 10px;
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.OpenRecipe button{
+  padding: 25px;
+  font-family: "Open Sans", serif;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #FDFCDC;
+  color: #103516;
+  border: 2px solid #103516 ;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.OpenRecipe button:hover{
+  background-color:#103516;
+  color: #FDFCDC;
+  box-shadow: 3px 3px #FDFCDC;
+  transition: 0.25s;
+}
