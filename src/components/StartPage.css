@@ -6,7 +6,7 @@
     flex-direction: column;
     min-height: 100vh; 
     background-color: #AFBEA4;
-    background-image: url('bg3.svg');
+    background-image: url('/bg3.svg');
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
