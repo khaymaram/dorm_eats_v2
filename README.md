@@ -1,6 +1,9 @@
 # Project Presentation
 [Khaymar Moe - Dorm Eats (2).pdf](https://github.com/user-attachments/files/19590112/Khaymar.Moe.-.Dorm.Eats.2.pdf)
 
+<img src='dormeats.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 # Project Description
 Group Members: Sarayu Jilludumudi, Khaymar Moe
 
